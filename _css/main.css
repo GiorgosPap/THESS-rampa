@@ -1,0 +1,89 @@
+﻿#map-canvas{
+		width:100%;
+		height: 100%;
+       
+}
+
+#map_directions {
+		width: 100%;
+        height: 350px;
+        float: right;
+        overflow-y: scroll;
+}
+  
+
+#im1,#im2{
+	cursor:pointer;
+	transition: transform 1s;
+	-webkit-transition: -webkit-transform 1s; /* For Safari 3.1 to 6.0 */
+
+}
+#im1:hover,#im2:hover{
+	
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
+
+}
+
+.select_ramp{
+	cursor:pointer;	
+}
+
+.select_ramp:hover{
+	transform:translate(0px,-10px) scale(1.05); /* Standard syntax */
+	-webkit-transform:translate(0px,-10px) scale(1.05); /* Chrome, Safari, Opera */
+	
+}
+
+#im8{
+	cursor:pointer;
+	transition: transform 1s;
+	-webkit-transition: -webkit-transform 1s; /* For Safari 3.1 to 6.0 */
+
+}
+#im8:hover{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg); /* Safari */
+
+}
+
+.eval_span:hover{
+	color:#001230;
+	cursor:pointer;
+}
+
+
+.img_index{
+	transition: transform 1s;
+	-webkit-transition: -webkit-transform 1s; /* For Safari 3.1 to 6.0 */
+
+}
+
+.img_index:hover{
+	transform:scale(1.2,1.2); 
+	-webkit-transform:scale(1.2,1.2); /* Chrome, Safari, Opera */
+
+}
+
+.img_moto{
+	transition: transform 0.5s;
+	-webkit-transition: -webkit-transform 0.5s; /* For Safari 3.1 to 6.0 */
+
+}
+
+.img_moto:hover{
+	transform:rotate(30deg); 
+	-webkit-transform:rotate(30deg); /* Chrome, Safari, Opera */
+
+}
+
+
+
+
+
+
+
+
+
+
+
